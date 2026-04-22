@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace G_NET_12_EF01.Models
 {
     internal class Author
-    {
+    { 
         public int AuthorID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
