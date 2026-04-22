@@ -10,7 +10,7 @@ namespace G_NET_12_EF01
 {
     //Heart of Entity FramWork Core (EF) 
     internal class AppContext : DbContext 
-    {
+    { 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server = .; Database=ReadMoreBooksDB ; Trusted_Connection=true;" +
