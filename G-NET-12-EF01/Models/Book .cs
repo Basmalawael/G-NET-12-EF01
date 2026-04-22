@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace G_NET_12_EF01.Models
 {
     internal class Book
-    {
+    { 
         public int Id { get; set; }
         public string ISBNnumber { get; set; }
         public string Title { get; set; }
